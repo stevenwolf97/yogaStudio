@@ -1,0 +1,98 @@
+body {
+    font-family: "optima", sans-serif;
+    background-image: linear-gradient(to right, #b8c53e4b, #1a7fad9c, #dfd21e);;
+}
+
+h1, h2, h3 {
+    font-family: "optima", sans-serif;
+}
+
+h2 {
+    color: #0a0a0a;
+}
+
+header h2 {
+    color: #f7f7f8;
+}
+
+.site-footer {
+    background-image: linear-gradient(to right, #b8c53e4b, #1a7fad9c, #dfd21e));
+    padding: 100px 25px;
+}
+
+.jumbotron {
+    margin: 0;
+    padding: 0px;
+    background-image: linear-gradient(to right, #b8c53e4b, #1a7fad9c, #dfd21e);
+    color: rgb(15, 3, 3);
+}
+
+.row-content {
+    padding: 50px 50px 50px;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+.navbar {
+    background-color: #4a6069cb;
+    font-family: "optima", sans-serif;
+}
+
+.tab-content {
+    border: 1px solid #DDD;
+    border-top: none;
+    padding: 10px;
+}
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel {
+    border: transparent #111016;
+    
+}
+
+h5 {
+    color: rgb(13, 13, 14);
+}
+.row {
+    padding: 20px;
+}
+
+.column {
+    position: relative;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: transparent: #008CBA;
+  }
+  
+  .column:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
