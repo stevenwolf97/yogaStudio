@@ -32,24 +32,101 @@
 <!--Navbar begins here-->
 <nav class="navbar navbar-expand-md navbar-dark sticky-top">
     <div class="container">
-        <a class="navbar-brand" href="#"><img src="img/lotus.png" height="30" width="30" /></a>
+        <a class="navbar-brand" href="index.html"><img src="img/lotus.png" height="30" width="30" /></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="clloapse navbar-collapse" id="nucampNavbar">
         <ul class="navbar-nav mx-auto">
-            <li class="nav-item ml-5 active"><a class="nav-link" href="yogaHome.html"><i class="fa fa-home fa-lg"></i>Home</a></li>
+            <li class="nav-item ml-5"><a class="nav-link" href="index.html"><i class="fa fa-home fa-lg"></i>Home</a></li>
             <li class="nav-item ml-5"><a class="nav-link" href="yogaAboutus.html">About Us</a></li>
             <li class="nav-item ml-5"><a class="nav-link" href="yogaAndHealing.html">Yoga and Healing</a></li>
             <li class="nav-item ml-5"><a class="nav-link" href="yogaServices.html">Services</a></li>
             <li class="nav-item ml-5"><a class="nav-link" href="yogaScheduling.html">Scheduling and Pricing</a></li>
-            <li class="nav-item ml-5"><a class="nav-link" href="yogaContact.html">Contact Us</a></li>
+            <li class="nav-item ml-5 active"><a class="nav-link" href="yogaContact.html">Contact Us</a></li>
         </ul>
     </div>
     </div>
 </nav>
 <!--Navbar ends-->
 
+<!--Image Header here-->
+<div class="container-fluid" style="padding: 0">
+    <div class="banner img-responsive"
+        style="background-image: url('http://res.cloudinary.com/dhlsxlkrc/image/upload/v1447118604/spring-purple-flowers-1080p-hd_dg4ncq.jpg'); height: 400px;">
+    </div>
+</div>
+
+<!--Body begins Contact Us-->
+<div class="container">
+    <div class="row row-content">
+        <div class="mx-auto">
+            <h2 class="text-center">Contact Us!</h2>
+            <h4 class="text-center">Call us at <a role="button" class="btn btn-link text-light" href="tel:+12065551234">1-234-555-1234</a><br /> </h4>
+            <div class="row row-content">
+                <div class="col-12">
+                    <h2 class="text-center">Enter Your Information Below</h2>
+                    <hr />
+                </div>
+                <div class="col-md-10">
+                    <form>
+                        <div class="form-group row">
+                            <label for="firstName" class="col-md-2 col-form-label">First Name</label>
+                            <div class="col-md-10">
+                                <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name" />
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="lastName" class="col-md-2 col-form-label">Last Name</label>
+                            <div class="col-md-10">
+                                <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name" />
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="areaCode" class="col-md-2 col-form-label">Contact Tel.</label>
+                            <div class="col-5 col-md-3">
+                                <input type="tel" class="form-control" id="areaCode" name="areaCode" placeholder="Area code" />
+                            </div>
+                            <div class="col-7">
+                                <input type="tel" class="form-control" name="telNum" placeholder="Tel. number" />
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="email" class="col-md-2 col-form-label">Email</label>
+                            <div class="col-md-10">
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Email" />
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col offset-md-2">
+                                May we contact you?
+                                <div class="form-check form-check-inline">
+                                    <input type="radio" class="form-check-input" id="contactYes" name="contactRadios" value="yes" />
+                                    <label for="contactYes" class="form-check-label">Yes</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input type="radio" class="form-check-input" id="contactNo" name="contactRadios" value="no" />
+                                    <label for="contactNo" class="form-check-label">No</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="feedback" class="col-md-2 col-form-label">Message</label>
+                            <div class="col-md-10">
+                                <textarea class="form-control" id="feedback" name="feedback" rows="8"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="offset-md-2 col-md-10 text-center">
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 <!--Footer begins-->
@@ -59,7 +136,7 @@
             <div class="col-4 col-sm-2 offset-1">
         <h5>Links</h5>
         <ul class="list-unstyled">
-            <li><a href="yogaHome.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="yogaAboutus.html">About</a></li>
             <li><a href="#">Sites</a></li>
             <li><a href="yogaContact.html">Contact</a></li>
